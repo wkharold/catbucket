@@ -1,0 +1,9 @@
+sudo apt update && sudo apt dist-upgrade -y && sudo apt install git python-pip curl wget -y
+
+sudo pip install flask
+sudo pip install google-cloud
+
+wget http://www.anishathalye.com/media/2017/07/25/cat.jpg
+wget https://i.pinimg.com/originals/08/3b/52/083b5224cb66b9fab1775157685ef4d6.jpg -O dog.jpg
+
+gsutil mb gs://19580414-catbucket-2304
